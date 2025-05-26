@@ -1,0 +1,35 @@
+// jsconfig.json hoặc tsconfig.json (nếu dùng TS)
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@component/*": [
+                "components/*"
+            ],
+            "@page/*": [
+                "page/*"
+            ],
+            "@utils/*": [
+                "utils/*"
+            ],
+            "@assets/*": [
+                "assets/*"
+            ],
+            "@styles/*": [
+                "styles/*"
+            ],
+            "@layout/*": [
+                "components/layout/*"
+            ],
+            "@ui/*": [
+                "components/ui/*"
+            ],
+            "@context/*": [
+                "context/*"
+            ],
+            "@api/*": [
+                "api/*"
+            ],
+        }
+    }
+}

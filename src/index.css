@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Tùy chỉnh toast cho màn hình nhỏ */
+@media (max-width: 480px) {
+    .Toastify__toast {
+        font-size: 14px;
+        padding: 10px;
+        min-height: unset;
+    }
+
+    .Toastify__toast-container {
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        padding: 0 10px;
+    }
+
+    .Toastify__close-button {
+        font-size: 16px;
+    }
+}
